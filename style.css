@@ -37,20 +37,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 header {
     padding: 16px 24px;
     display: flex;
     justify-content: flex-end;
+    max-width: 1160px;
+    margin-inline: auto;
 }
+
 .tema {
     padding: 8px 0;
     display: flex;
     align-items: center;
     gap: 8px;
 }
+
 .tema img {
     width: 16px;
 }
+
 .tema button {
     height: 20px;
     width: 32px;
